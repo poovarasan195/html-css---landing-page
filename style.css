@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.main_div{
+    overflow: hidden;
+    background-color: rgb(248, 246, 246);
+    margin-top: 3px;
+    height: 99%;
+    border-radius: 10px;
+    border: 6px solid orange;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    vertical-align: middle;
+    margin-right: 10px; 
+    border-radius: 10px;
+    padding: 9px;
+    transition: 1s;
+}
+nav a:hover{
+    background-color: orange;
+}
+.header{
+    margin-top: 2%;
+    margin-right: 20px;
+    float: right;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px; 
+    height: 24px; 
+    margin-right: 5px; 
+}
+/* nav right pic and date*/
+.right_date_brite {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav_iconimg {
+    width: 24px; 
+    height: 24px; 
+}
+.column span {
+    font-size: 12px; 
+}
+.pic{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+/* body_ofthepage*/
+.body_ofthepage{
+    margin-top: 8%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first_card{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+}
+.card_img{
+    width: 250px;
+    height: 250px;
+}
+.second_card{
+    width: 40%;
+    height: 75%;
+    border-radius: 10px;
+}
+.third_card{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px;
+}
+.card_details{
+    width: 250px;
+    height: 250px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.card_details p{
+    color: rgba(231, 171, 60, 0.753);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 900;
+}
+.card_details h4{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange;
+}
+/* second_card*/
+.name_content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: white;
+     width: 100%;
+     height: 40%;
+     border-radius: 10px;  
+     overflow: hidden;
+     display: flex;
+     gap: 10px;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+}
+.namecontent_img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.quick_status{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:"Inter", sans-serif;
+}
+.status_ubdate {
+    margin-top: 10px;
+    height: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px;
+}
+
+.status_card {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.status_card span {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 10%;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.status_card span img {
+    height: 20px; 
+}
+.status_card b{
+    font-size: 20px;
+    font-weight: 900;
+}
+.status_card p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* three color effect*/
+.dark {
+    float: right;
+    height: 130px;
+    width: 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(241, 193, 104, 0.678); 
+    clip-path: circle(50% at 100% 50%);
+}
+
+.light {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    right: 0px; /* Adjust as needed */
+    background-color: rgba(245, 189, 86, 0.808); 
+    clip-path: circle(50% at 100% 50%);
+}
+
+.extra-light {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0px; /* Adjust as needed */
+    background-color: orange; 
+    clip-path: circle(50% at 100% 50%);
+}
+
